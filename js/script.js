@@ -1,6 +1,3 @@
-/* HomePage */
-
-
 
 
 /* Hamburger Menu Bar */
@@ -15,7 +12,7 @@ function initHamburger() {
         hamburger.classList.add("open");
         menu.classList.add("menu");
         js_content_blur.style.filter = "blur(6px)";
-        document.body.style.overflow = "hidden";
+        document.body.style.overflow = "auto";
       } else {
         hamburger.classList.remove("open");
         menu.classList.remove("menu");
@@ -26,6 +23,7 @@ function initHamburger() {
     }
   
     hamburger.addEventListener("click", change);
+    menu.addEventListener("click",change)
 };
 
 initHamburger();

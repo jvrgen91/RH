@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family:'Lato',sans-serif;
     
+    
 }
 body{
     background-color: black;
@@ -151,6 +152,7 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 
@@ -303,39 +305,39 @@ div.new-card {
 .contact-info{
     font-size: 15px;
     text-transform: uppercase;
-    text-align: start;
+    
 }
 
-.ending li{
-    font-size: 10px;
+#contacts li{
+    font-size: 12px;
     text-transform: uppercase;
     padding-bottom: 5px;
 }
-
 
 
 .ikonat a:link{
     color: white;
 }
 
-footer{
-    font-size: 10px;
-    color: grey;
-}
 
-.bottom-logo{
 
-    margin-bottom:inherit;
 
-    
-}
-
-.movie-cards{
-    --bs-gutter-x: 0;
-}
+/* .movie-cards{
+    --bs-gutter-x: 0; 
+} */
 .hamburger-text{
     font-size: x-large;
 }
 .hamburger-text::first-letter{
     color: red;
+}
+.the-last-one{
+    font-size:x-small;
+    color:gray;
+    width: 40rem;
+   
+}
+
+.bottom-row{
+    width: inherit;
 }

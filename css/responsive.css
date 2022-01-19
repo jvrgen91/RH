@@ -1,9 +1,19 @@
 /* Bootstrap Media Queries */
 
+@media (min-width:1440px) {
+    .services{
+        margin-left:-8%;
+    }
+     .movie-cards{
+    --bs-gutter-x: 0; 
+} 
+    
+}
+
 
 
 /* Medium Devices */
-@media (min-width:768px)and (max-width:990px) {
+@media (min-width:768px)and (max-width:1000px) {
     .box{
         width: 8rem;
         height: 9rem;
@@ -22,8 +32,20 @@
         text-align: start;
         width: max-content;
     }
+    .header-desc{
+        margin-bottom:80px;
+    }
+    .view-more{
+        font-size: x-small;
+    }
+    .movie-cards{
+    --bs-gutter-x:0.5rem; 
+} 
+.contact-info{
+    font-size: medium;
+} 
+    
 }
-
 
 
 
@@ -74,10 +96,7 @@ height: 400px;
     width: max-content;
 }
 
-} 
-.ending{
-    align-items: center;
-}
+
 .view-more{
     font-size: x-small;
 }
@@ -87,6 +106,12 @@ height: 400px;
 }
 
 .hamburger-text{
-    font-size: medium;
+    font-size: large;
 }
 
+.header-desc{
+    margin-top: 90px;
+    margin-bottom: 65px;
+}
+
+}
