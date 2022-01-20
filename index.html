@@ -20,7 +20,7 @@
     <!--Header-->
     <div id="banner">
         <main>
-            <div id="overlay">
+            <div id="overlay" style="position: fixed;">
                 <div>
                     <a href="#port">
                         <p class="hamburger-text">PORTOFOLIO</p>
@@ -36,10 +36,10 @@
                     </a>
                 </div>
             </div>
-            <div class="nav_bar">
-                <div class="logo"><img style="width: 25%;" src="img/red-helicopter-homepage-logo-image.png"></div>
+            <div class="nav_bar" style="position: fixed;">
+                <div class="logo" style="margin:0;"><img style="width: 25%;" src="img/red-helicopter-homepage-logo-image.png"></div>
                 <div id="hamburger">
-                    <div></div>
+                    <div style="position: fixed;"></div>
                 </div>
             </div>
             <div id="js_content_blur"> </div>
@@ -63,23 +63,23 @@
 
 
     <!-- Swiper -->
-    <div class="container swipper-custom-css">
+    <div class="container d-flex justify-content-center align-items-center swipper-custom-css">
         <div class="button" onclick="shiftLeft()"><i class="fas fa-chevron-left fa-2x"></i></div>
         <div class="cards-wrapper">
             <ul class="cards__container">
-                <li onclick="shiftRight()" class="box" style="background-color:black"><img src="img/reel-1.png" alt="">
+                <li onclick="shiftRight()" class="box" style="background-color:black"><img src="img/red-helicopter-films-img-reel1.png" alt="">
                     <p class="box--hide">Back to Q82</p>
                 </li>
-                <li onclick="shiftRight()" class="box"><img src="img/reel-2.png" alt="">
+                <li onclick="shiftRight()" class="box"><img src="img/red-helicopter-films-image-reel2.png" alt="">
                     <p class="box--hide">Covenant</p>
                 </li>
-                <li onclick="shiftRight()" class="box"><img src="img/reel-3.png" alt="">
+                <li onclick="shiftRight()" class="box"><img src="img/red-helicopter-films-img-reel3.png" alt="">
                     <p class="box--show">Amok</p>
                 </li>
-                <li onclick="shiftRight()" class="box"><img src="img/reel-4.png" alt="">
+                <li onclick="shiftRight()" class="box"><img src="img/red-helicopter-films-img-reel4.png" alt="">
                     <p class="box--hide">The perfect Gangster</p>
                 </li>
-                <li onclick="shiftRight()" class="box"><img src="img/reel-5.png" alt="">
+                <li onclick="shiftRight()" class="box"><img src="img/red-helicopter-films-img-reel5.png" alt="">
                     <p class="box--hide">Dre</p>
                 </li>
             </ul>
@@ -112,7 +112,7 @@
 
 
 
-    <div class="container text-white ">
+    <div class="container d-flex justify-content-center text-white ">
         <div class="row d-flex  text-end my-5 services">
             <div class="col-lg-3 col-md-3 col-sm-12 service-list">
                 <i class="fas fa-film fa-3x"></i>
@@ -169,7 +169,7 @@
 
         <div class="col-lg-5 col-md-5 col-sm-12 padding-0">
             <div class="card text-white new-card">
-                <img src="img/production2.jpg" class="card-img movie-scene" alt="movie scene">
+                <img src="img/red-helicopteri-films-cardimg-1.jpg" class="card-img movie-scene" alt="movie scene">
 
                 <div class="card-img-overlay  d-flex align-items-end">
                     <div class="card-body">
@@ -188,7 +188,7 @@
 
         <div class="col-lg-5 col-md-5 col-sm-12 padding-0">
             <div class="card text-white new-card">
-                <img src="img/reel-4.png" class="card-img movie-scene" alt="movie scene">
+                <img src="img/red-helicopter-films-img-reel4.png" class="card-img movie-scene" alt="movie scene">
                 <div class="card-img-overlay  d-flex align-items-end">
                     <div class="card-body ">
                         <h2 class="card-title">Our international <br> breakthrough</h2>
@@ -267,7 +267,7 @@
 
         <!-- Section: Links  -->
 <section id="contacts">
-    <div class="container text-center text-light text-md-start mt-5">
+    <div class="container d-flex justify-content-center text-center text-light text-md-start mt-5">
 
         <div class="row bottom-row">
 
@@ -307,11 +307,11 @@
                     </div>
 
 
-                    <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mb-3 ikonat">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3 ikonat">
                         <p class="contact-info mb-2">connect</p>
-                        <a href="https://www.instagram.com"><i class="fab fa-instagram fa-1x"></i></a>
-                        <a href="https://www.facebook.com"><i class="fab fa-facebook fa-1x"></i></a>
-                        <a href="https://www.instagram.com"><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://www.instagam.it"><i class="fab fa-instagram fa-1x"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube fa-1x"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
 
                 </div>
@@ -323,14 +323,14 @@
 
     <footer class="text-center">
        <div class="container mt-3">
-                <div class="row the-last-one">
-                    <div class="col-md-4 col-lg-4">
+                <div class="row d-flex justify-content-center the-last-one">
+                    <div class="col-md-2 col-lg-1 imprint">
                        <p>Imprint</p>
                     </div>
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-md-2 col-lg-1 privacy">
                       <p>Privacy policy</p> 
                     </div>
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-md-2 col-lg-1">
                       <p>Cookie settings</p> 
                     </div>
                     </div>

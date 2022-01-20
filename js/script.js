@@ -32,7 +32,7 @@ initHamburger();
        /*    SWIPPER */
 
 
-function shiftLeft() {
+ function shiftLeft() {
   const boxes = document.querySelectorAll(".box");
   const tmpNode = boxes[0];
   boxes[0].className = "box move-out-from-left";
@@ -101,3 +101,18 @@ setTimeout(function() {
     boxes[3].className = "box move-to-position5-from-right";
     
   }, 500);}
+
+
+// ////////   Navabar///////
+
+const navbar=document.querySelector('.nav_bar');
+
+window.onscroll=function(){
+var top= window.scrollY;
+console.log(top);
+if (top>=205){
+  navbar.classList.add('active')
+} else{
+  navbar.classList.remove("active")
+}
+}

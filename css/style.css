@@ -31,6 +31,7 @@ main {
 
 .nav_bar {
     width: 100%;
+    height: 15%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -39,11 +40,23 @@ main {
     top: 0;
     z-index: 3;
 }
-.logo,
-#hamburger {
 
-  margin: 4%;
+  .nav_bar.active{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.911);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    transition: all 0.5s;
+
 }
+
+
+
 #hamburger {
 
     cursor: pointer;
@@ -100,8 +113,9 @@ main {
 }
   
 #overlay.menu {
-    opacity: 1;
+   opacity: 1;
     visibility: visible;
+    background-color: rgba(0, 0, 0, 0.911);
 }
 
 #overlay > div {
@@ -315,16 +329,15 @@ div.new-card {
 }
 
 
+
 .ikonat a:link{
-    color: white;
+
+color:white;
 }
 
 
 
 
-/* .movie-cards{
-    --bs-gutter-x: 0; 
-} */
 .hamburger-text{
     font-size: x-large;
 }
@@ -334,7 +347,7 @@ div.new-card {
 .the-last-one{
     font-size:x-small;
     color:gray;
-    width: 40rem;
+    
    
 }
 

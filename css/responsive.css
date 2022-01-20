@@ -7,13 +7,19 @@
      .movie-cards{
     --bs-gutter-x: 0; 
 } 
+.imprint{
+    margin-right:-13px;
+}
+.privacy{
+    margin: 0 -28px;
+}
     
 }
 
 
 
 /* Medium Devices */
-@media (min-width:768px)and (max-width:1000px) {
+@media (min-width:768px)and (max-width:1024px) {
     .box{
         width: 8rem;
         height: 9rem;
@@ -44,6 +50,13 @@
 .contact-info{
     font-size: medium;
 } 
+
+.imprint{
+    margin-right:-12px;
+}
+.privacy{
+    margin: 0 -28px;
+}
     
 }
 
@@ -113,5 +126,13 @@ height: 400px;
     margin-top: 90px;
     margin-bottom: 65px;
 }
+.card-body{
+    display: grid;
+    text-align: center;
+}
 
+.movie-cards{
+    --bs-gutter-x:0;
+
+}
 }
